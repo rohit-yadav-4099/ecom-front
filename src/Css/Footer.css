@@ -1,0 +1,241 @@
+.logodtl{
+    height: 7vh;
+    width: 5vw;
+}
+.outerlogo{
+    /* border: 2px solid black; */
+    width: 30vw;
+    height: 10vh;
+    float: right;
+
+}
+.footermain {
+    background-color: rgba(0, 0, 0, 0.742);
+    height: 35vh;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+
+    top: 400vh;
+    /* border: 2px solid black; */
+   
+    
+ } 
+
+ .logosdtl {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top:0vh;
+    left: 15vw;
+    height: 8vh;
+}
+
+.gotonavdtl {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 25vw;
+    width: 40vh;
+    /* height: 10vh; */
+    top: 2vh;
+
+    /* border: 2px solid black; */
+
+}
+
+.logoonedtl {
+    height: 5vh;
+    position: relative;
+    left: -0.4vw;
+    top: 1vh;
+
+}
+
+.logo {
+    height: 8vh;
+    /* width: vw; */
+
+}
+
+.location {
+    position: absolute;
+    left: 5vw;
+    top: 4vh;
+}
+
+.locdtl {
+    font-weight: bold;
+    position: absolute;
+    top: 5vh;
+    left: 10vw;
+    color: whitesmoke;
+
+}
+
+.logoonephonedtl {
+    height: 4vh;
+    position: relative;
+    right: 41.5vw;
+    top: -2vh;
+    /* border: 5px solid black; */
+    color: aliceblue;
+    background-color: aqua;
+
+
+}
+
+.phodtl {
+    font-weight: bold;
+    position: absolute;
+    top: 13vh;
+    left: 10vw;
+
+    color: whitesmoke;
+
+}
+
+.logoonemaildtl {
+    height: 5vh;
+    position: relative;
+    right: 44.5vw;
+    top: 5vh;
+   
+}
+
+.emaildtl {
+    font-weight: bold;
+    position: absolute;
+    color: whitesmoke;
+    top: 20vh;
+    left: 10vw
+}
+
+
+
+
+
+
+@media screen and (min-width:300px) and (max-width:500px) {
+
+    /* .logodtl{
+        height: 7vh;
+        width: 5vw;
+    }
+    .outerlogo{
+        border: 2px solid black;
+        width: 30vw;
+        height: 10vh;
+        float: right;
+    
+    } */
+    .footermain {
+        background-color: rgba(0, 0, 0, 0.742);
+        height: 35vh;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        position: relative;
+    
+        top: 8vh;
+        /* border: 2px solid black; */
+       
+        
+     } 
+    
+     .logosdtl {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        top:-12vh;
+        left: 25vw;
+        height: 8vh;
+    }
+    
+    .gotonavdtl {
+        display: flex;
+        flex-direction:column;
+        position: relative;
+        left: 15vw;
+        width: 10vh;
+        /* border: 2px solid black; */
+        /* height: 10vh; */
+        top: 2vh;
+    
+        /* border: 2px solid black; */
+    
+    }
+    
+    .logoonedtl {
+        height: 5vh;
+        position: relative;
+        left: -2vw;
+        top: 1vh;
+    
+    }
+    
+    .logo {
+        height: 8vh;
+        /* width: vw; */
+    
+    }
+    
+    .location {
+        position: absolute;
+        left: 5vw;
+        top: 4vh;
+    }
+    
+    .locdtl {
+        font-weight: bold;
+        position: absolute;
+        top: 5vh;
+        left: 12vw;
+        color: whitesmoke;
+    
+    }
+    
+    .logoonephonedtl {
+        height: 4vh;
+        position: relative;
+        right: 38.5vw;
+        top: -2vh;
+        /* border: 5px solid black; */
+        color: aliceblue;
+        background-color: aqua;
+    
+    
+    }
+    
+    .phodtl {
+        font-weight: bold;
+        position: absolute;
+        top: 13vh;
+        left: 13vw;
+    
+        color: whitesmoke;
+    
+    }
+    
+    .logoonemaildtl {
+        height: 5vh;
+        position: relative;
+        right: 49.5vw;
+        top: 5vh;
+       
+    }
+    
+    .emaildtl {
+        font-weight: bold;
+        position: absolute;
+        color: whitesmoke;
+        top: 20vh;
+        left: 13vw
+    }
+    
+}

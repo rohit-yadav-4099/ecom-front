@@ -1,0 +1,412 @@
+.header_main {
+    height: 10vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.826);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .signup {
+    width: 10vw;
+    height: 8vh;
+    border-radius: 20px;
+  }
+  
+  .searchdata {
+    height: 5vh;
+    width: 20vw;
+    border-radius: 15px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .routeparent {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    height: 10vh;
+    align-items: center;
+    font-size: 2em;
+    border-radius: 20px;
+  }
+  
+  .underdiv_all_nav {
+    position: relative;
+  }
+  
+  .routeparent li {
+    color: white;
+    list-style: none;
+  }
+  
+  .sub_groceries {
+    border-radius: 20px;
+    /* border: 2px solid black; */
+    position: absolute;
+    flex-direction: column;
+    top: 15vh;
+    height: 15vh;
+  }
+  
+  .sub_groceries li {
+    text-align: center;
+    /* border: 2px solid black; */
+    background-color: aliceblue;
+    border-radius: 10px;
+  }
+  
+  .sub_groceries li :hover {
+    border-bottom: 1px solid black;
+  }
+  
+  .sub_fashion {
+    border-radius: 20px;
+    /* border: 2px solid black; */
+    position: absolute;
+    flex-direction: column;
+    top: 15vh;
+    height: 15vh;
+  }
+  
+  .sub_fashion li {
+    text-align: center;
+    /* border: 2px solid black; */
+    background-color: aliceblue;
+    border-radius: 10px;
+  }
+  
+  .sub_fashion li :hover {
+    border-bottom: 1px solid black;
+  }
+  
+  .sub_premium {
+    border-radius: 20px;
+    /* border: 2px solid black; */
+    position: absolute;
+    flex-direction: column;
+    top: 15vh;
+    height: 15vh;
+  }
+  
+  .sub_premium li {
+    text-align: center;
+    /* border: 2px solid black; */
+    background-color: aliceblue;
+    border-radius: 10px;
+  }
+  
+  .sub_premium li :hover {
+    border-bottom: 1px solid black;
+  }
+  
+  .sub_sport {
+    border-radius: 20px;
+    /* border: 2px solid black; */
+    position: absolute;
+    flex-direction: column;
+    top: 15vh;
+    height: 15vh;
+  }
+  
+  .sub_sport li {
+    text-align: center;
+    /* border: 2px solid black; */
+    background-color: aliceblue;
+    border-radius: 10px;
+  }
+  
+  .sub_sport li :hover {
+    border-bottom: 1px solid black;
+  }
+  
+  .shop_heading {
+    font-size: 3em;
+    font-weight: bold;
+    color: aliceblue;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  .btnone {
+    font-size: 3vh;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  /* ********************888hamberger************ */
+  
+  .fa-solid {
+    display: block;
+  }
+  
+  .navlinkResponsive {
+    display: block;
+  }
+  
+  .listresponsive {
+    display: block;
+  }
+  
+  .navbar-listResponsive {
+    display: none;
+  }
+  
+  .display {
+    display: none;
+  }
+  
+  /* ***********************************media******************************************* */
+  
+  @media screen and (min-width: 300px) and (max-width: 500px) {
+    .fa-solid {
+      display: block;
+      float: right;
+      font-size: 3em;
+    }
+  
+    .display {
+      /* border: 8px solid black; */
+      display: block;
+      background-color: aliceblue;
+      position: absolute;
+      right: 1vw;
+      top: 1vh;
+    }
+    .serch_icon {
+      position: relative;
+      left: 38vw;
+    }
+  
+    .searchdata {
+      height: 4vh;
+      width: 25vw;
+      height: 5vh;
+      position: absolute;
+      left: 55vw;
+      top: 1vh;
+      border-radius: 15px;
+      /* margin-top: 10px; */
+    }
+    .loginbtn {
+      display: none;
+    }
+  
+    .lgtbtn {
+      display: none;
+    }
+    .navbar-listResponsive {
+      display: block;
+      position: absolute;
+      right: 0vw;
+      top: 5vh;
+      line-height: 10vh;
+      width: 60vw;
+      font-size: 2em;
+      background-color: azure;
+      z-index: 55;
+      font-weight: bold;
+      border-radius: 20px;
+    }
+    .signup {
+      position: absolute;
+      left: 65vw;
+      width: 20vw;
+      height: 7vh;
+      border: 2px solid black;
+    }
+  
+    .hambergerlinksShows {
+      display: block;
+    }
+  
+    .hambergerlinksHide {
+      display: none;
+    }
+  
+    .listresponsive {
+      display: block;
+      border-bottom: 1px solid gray;
+    }
+  
+    .navlinkResponsive {
+      display: block;
+    }
+  
+    .routeparent {
+      display: none;
+      /* overflow: hidden; */
+    }
+  
+    .header_main {
+      justify-content: space-evenly;
+      align-items: center;
+      position: relative;
+    }
+  
+    a {
+      text-decoration: none;
+    }
+  
+    .imageicon {
+      position: absolute;
+      left: 2px;
+      top: 2vh;
+      height: 38px;
+    }
+  
+    .shop_heading {
+      position: absolute;
+      left: 12vw;
+      top: 3.5vh;
+      font-size: 1em;
+      font-weight: bold;
+      color: aliceblue;
+  
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    }
+  
+    .route {
+      display: flex;
+      width: 100%;
+      height: 8vh;
+      background-color: black;
+      /* border: 2px solid black; */
+      border-radius: 5px;
+      align-items: center;
+      justify-content: space-evenly;
+      font-family: "Courier New", Courier, monospace;
+      font-size: 1.5em;
+      font-weight: bolder;
+      overflow: hidden;
+    }
+  }
+  
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .serch_icon {
+      position: relative;
+      left: 50vw;
+    }
+  
+    .fa-solid {
+      display: block;
+      float: right;
+      font-size: 3em;
+    }
+  
+    .display {
+      /* border: 8px solid black; */
+      display: block;
+      background-color: aliceblue;
+      position: absolute;
+      right: 1vw;
+      top: 2vh;
+      height: 5vh;
+    }
+  
+    .searchdata {
+      height: 4vh;
+      width: 50vw;
+      height: 5vh;
+      position: absolute;
+      left: 38vw;
+      top: 1vh;
+      border-radius: 15px;
+      /* margin-top: 10px; */
+    }
+    .loginbtn {
+      display: none;
+    }
+  
+    .lgtbtn {
+      display: none;
+    }
+    .navbar-listResponsive {
+      display: block;
+      position: absolute;
+      right: 0vw;
+      top: 5vh;
+      line-height: 10vh;
+      width: 60vw;
+      font-size: 2em;
+      background-color: azure;
+      z-index: 55;
+      font-weight: bold;
+      border-radius: 20px;
+    }
+    .signup {
+      position: absolute;
+      left: 65vw;
+      width: 20vw;
+      height: 7vh;
+      border: 2px solid black;
+    }
+  
+    .hambergerlinksShows {
+      display: block;
+    }
+  
+    .hambergerlinksHide {
+      display: none;
+    }
+  
+    .listresponsive {
+      display: block;
+      border-bottom: 1px solid gray;
+    }
+  
+    .navlinkResponsive {
+      display: block;
+    }
+  
+    .routeparent {
+      display: none;
+      /* overflow: hidden; */
+    }
+  
+    .header_main {
+      align-items: center;
+    }
+  
+    a {
+      text-decoration: none;
+    }
+  
+    .imageicon {
+      position: absolute;
+      left: 2px;
+      top: 1vh;
+      height: 7vh;
+    }
+  
+    .shop_heading {
+      position: absolute;
+      left: 11vw;
+      top: 2vh;
+      font-size: 2em;
+      font-weight: bold;
+      color: aliceblue;
+  
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    }
+  
+    .route {
+      display: flex;
+      width: 100%;
+      height: 8vh;
+      background-color: black;
+      /* border: 2px solid black; */
+      border-radius: 5px;
+      align-items: center;
+      justify-content: space-evenly;
+      font-family: "Courier New", Courier, monospace;
+      font-size: 1.5em;
+      font-weight: bolder;
+      overflow: hidden;
+    }
+  }
