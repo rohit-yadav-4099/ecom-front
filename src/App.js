@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 import "./App.css";
-import DisplayRoute from "./Route/Display";
+import DisplayRoute from "./Route/Rout";
 // import SearchBar from "./Component/Search";
 
 function App() {
